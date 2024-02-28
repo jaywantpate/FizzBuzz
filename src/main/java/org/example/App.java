@@ -10,6 +10,8 @@ public class App
         String ans = " ";
         if(x%3 == 0)
             ans ="Fizz";
+        else if(x%5 == 0)
+            ans = "Buzz";
         return ans;
     }
     public static void main( String[] args ) {
