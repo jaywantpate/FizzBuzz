@@ -14,6 +14,8 @@ public class App
             ans ="Fizz";
         else if(x%5 == 0)
             ans = "Buzz";
+        else
+            ans = String.valueOf(x);
         return ans;
     }
     public static void main( String[] args ) {
