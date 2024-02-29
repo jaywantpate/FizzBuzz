@@ -36,5 +36,6 @@ public class AppTest
         assertEquals("Fizz", App.FizzBuzz(3));
         assertEquals("Fizz", App.FizzBuzz(6));
         assertEquals("Buzz", App.FizzBuzz(5));
+        assertEquals("FizzBuzz", App.FizzBuzz(15));
     }
 }
